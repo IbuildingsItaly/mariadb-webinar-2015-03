@@ -21,7 +21,7 @@ CREATE OR REPLACE TABLE prezzo_carburanti
 )
         ENGINE = CONNECT
         TABLE_TYPE = 'CSV'
-        FILE_NAME = 'prezzo_alle_8.csv'
+        FILE_NAME = '/var/mariadbwebinar/prezzo_alle_8.csv'
         HEADER = 1
         SEP_CHAR = ';'
         QUOTED = 0
