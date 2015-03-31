@@ -59,7 +59,7 @@ INSERT INTO product SET
                 'storage_type', 'SSD' AS CHAR,
                 'storage_size', 500 AS INTEGER
         ),
-        description = 'Red T-shirt';
+        description = 'XY Laptop';
 
 
 -- but we don't have a column which indicates the product type.
